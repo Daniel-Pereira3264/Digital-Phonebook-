@@ -9,7 +9,7 @@ enum Type{Mobile=1, Home=2, Work=3, Main=4, Other=5 };
 enum Group{Emergency=1, Colleague=2, Family=3, Friend=4, Not_Available=5 };
 enum Relationship{Parent=1, Mother=2, Father=3, Brother=4, Sister=5, Friends=6, Relative=7, Unknown=8};
 
-typedef enum { False, True } boolean;
+typedef enum { False , True } boolean;
 
 struct Contact{
 	int Id;
@@ -29,7 +29,7 @@ struct Contact{
 struct Contact contacts[100];
 struct Contact contactList[1000];
 int Total = 0;
-int K=0;
+int K = 0;
 boolean showBlockContacts = False;
 
 void CreateNewContact();
@@ -91,7 +91,8 @@ void showContactActionTitle(char a[100]){
 void processUserOption(){
 	int n;
 	scanf("%d",&n);
-	switch(n){
+	switch(n)
+	{
 		case 1:
 			CreateNewContact();
 			break;
