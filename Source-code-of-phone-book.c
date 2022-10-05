@@ -1,4 +1,4 @@
-//DIGITAL PHONE-BOOK App using C programing language 
+//DIGITAL PHONE-BOOK Software using C programing language 
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
