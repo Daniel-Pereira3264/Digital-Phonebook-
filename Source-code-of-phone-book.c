@@ -1,10 +1,9 @@
-//DIGITAL PHONE-BOOK Software using C programing language 
+//Digital PHONE-BOOK Software using C programing language 
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include<time.h>
 #include<ctype.h>
-
 
 enum Type{Mobile=1, Home=2, Work=3, Main=4, Other=5 };
 enum Group{Emergency=1, Colleague=2, Family=3, Friend=4, Not_Available=5 };
