@@ -46,7 +46,7 @@ void showTitle(){
 	printf("\t\t\t\t\t |*************************************|\n");
 	printf("\t\t\t\t\t |*-----------------------------------*|\n");
 
-	printf("\t\t\t\t\t |*\t     Digital Phonebook        *|\n");
+	printf("\t\t\t\t\t |*\t     DIGITAL PHONEBOOK        *|\n");
 	printf("\t\t\t\t\t |*-----------------------------------*|\n");
 
 	//printf("\t\t\t***********************************\n\n");
