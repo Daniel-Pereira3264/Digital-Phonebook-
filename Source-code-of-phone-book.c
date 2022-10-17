@@ -5,7 +5,7 @@
 #include<time.h>
 #include<ctype.h>
 
-enum Type{Mobile=1, Home=2, Work=3, Main=4, Other=5 };
+enum Type{Mobile = 1, Home = 2, Work = 3, Main = 4, Other = 5 };
 enum Group{Emergency=1, Colleague=2, Family=3, Friend=4, Not_Available=5 };
 enum Relationship{Parent=1, Mother=2, Father=3, Brother=4, Sister=5, Friends=6, Relative=7, Unknown=8};
 
